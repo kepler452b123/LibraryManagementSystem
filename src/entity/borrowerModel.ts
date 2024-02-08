@@ -6,7 +6,10 @@ export class Borrower {
   id: number;
 
   @Column()
-  name: string;
+  firstName: string;
+
+  @Column()
+  lastName: string;
 
   @Column()
   email: string;
